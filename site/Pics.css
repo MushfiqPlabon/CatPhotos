@@ -1,0 +1,33 @@
+body{
+	background-color: black;
+	margin: 0px;
+}
+
+
+.heart {
+	text-align: center;
+	color: red;
+	transition: all 1s;
+}
+
+.heart:hover {
+	transform: scale(2.0);
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+}
+
+img {
+	margin: 1%;
+	height: 25%;
+	width: 25%;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.2);
+}
